@@ -26,6 +26,7 @@ Estrutura do Projeto
 └── imagens/
     ├── bolo-cenoura.jpg # Imagens usadas no site
     └── lasanha.jpg
+    
 Como Rodar o Projeto
 Para visualizar o projeto, siga estes passos:
 
