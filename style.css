@@ -1,0 +1,125 @@
+/* Estilos Básicos */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.header {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.site-subtitle {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Layout das Receitas usando Flexbox */
+.recipe-grid {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens quebrem a linha */
+  justify-content: center; /* Centraliza os cartões na tela */
+  gap: 2rem; /* Espaçamento entre os cartões */
+}
+
+/* Estilo do Cartão de Receita */
+.recipe-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px; /* Largura fixa para os cartões */
+  text-align: center;
+}
+
+.recipe-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+}
+
+.recipe-info {
+  padding: 1.5rem;
+}
+
+.recipe-title {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.recipe-description {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Estilos para a página de detalhes da receita */
+.recipe-details {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-details h1,
+.recipe-details h2 {
+  text-align: center;
+  color: #495057;
+}
+
+.recipe-image-full {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.recipe-sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.ingredients,
+.instructions {
+  flex: 1;
+}
+
+.ingredients ul,
+.instructions ol {
+  padding-left: 1.5rem;
+}
+
+.back-link {
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
